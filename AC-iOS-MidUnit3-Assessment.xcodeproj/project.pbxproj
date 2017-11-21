@@ -8,24 +8,34 @@
 
 /* Begin PBXBuildFile section */
 		54F368DE1FC32FBF000AFC19 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54F368DD1FC32FBF000AFC19 /* AppDelegate.swift */; };
-		54F368E01FC32FBF000AFC19 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54F368DF1FC32FBF000AFC19 /* ViewController.swift */; };
 		54F368E31FC32FBF000AFC19 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 54F368E11FC32FBF000AFC19 /* Main.storyboard */; };
 		54F368E51FC32FC0000AFC19 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 54F368E41FC32FC0000AFC19 /* Assets.xcassets */; };
 		54F368E81FC32FC0000AFC19 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 54F368E61FC32FC0000AFC19 /* LaunchScreen.storyboard */; };
 		54F368F01FC3307A000AFC19 /* bookinfo.json in Resources */ = {isa = PBXBuildFile; fileRef = 54F368EF1FC3307A000AFC19 /* bookinfo.json */; };
 		54F368F21FC33136000AFC19 /* jeopardyinfo.json in Resources */ = {isa = PBXBuildFile; fileRef = 54F368F11FC33136000AFC19 /* jeopardyinfo.json */; };
+		CF86EA5E1FC4803900DA7DC2 /* JeopardyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF86EA5D1FC4803900DA7DC2 /* JeopardyViewController.swift */; };
+		CF86EA601FC4804900DA7DC2 /* jeopardy.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF86EA5F1FC4804900DA7DC2 /* jeopardy.swift */; };
+		CF86EA621FC4A1A400DA7DC2 /* book.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF86EA611FC4A1A400DA7DC2 /* book.swift */; };
+		CF86EA641FC4A1B500DA7DC2 /* APIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF86EA631FC4A1B500DA7DC2 /* APIManager.swift */; };
+		CF86EA661FC4A1CB00DA7DC2 /* BookTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF86EA651FC4A1CB00DA7DC2 /* BookTableViewController.swift */; };
+		CF86EA681FC4A1E200DA7DC2 /* BookDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF86EA671FC4A1E200DA7DC2 /* BookDetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		54F368DA1FC32FBF000AFC19 /* AC-iOS-MidUnit3-Assessment.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "AC-iOS-MidUnit3-Assessment.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		54F368DD1FC32FBF000AFC19 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		54F368DF1FC32FBF000AFC19 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		54F368E21FC32FBF000AFC19 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		54F368E41FC32FC0000AFC19 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		54F368E71FC32FC0000AFC19 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		54F368E91FC32FC0000AFC19 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		54F368EF1FC3307A000AFC19 /* bookinfo.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = bookinfo.json; sourceTree = SOURCE_ROOT; };
 		54F368F11FC33136000AFC19 /* jeopardyinfo.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = jeopardyinfo.json; sourceTree = "<group>"; };
+		CF86EA5D1FC4803900DA7DC2 /* JeopardyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JeopardyViewController.swift; sourceTree = "<group>"; };
+		CF86EA5F1FC4804900DA7DC2 /* jeopardy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = jeopardy.swift; sourceTree = "<group>"; };
+		CF86EA611FC4A1A400DA7DC2 /* book.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = book.swift; sourceTree = "<group>"; };
+		CF86EA631FC4A1B500DA7DC2 /* APIManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIManager.swift; sourceTree = "<group>"; };
+		CF86EA651FC4A1CB00DA7DC2 /* BookTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookTableViewController.swift; sourceTree = "<group>"; };
+		CF86EA671FC4A1E200DA7DC2 /* BookDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookDetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,7 +71,6 @@
 			isa = PBXGroup;
 			children = (
 				54F368F31FC3315D000AFC19 /* Supporting Files */,
-				54F368DF1FC32FBF000AFC19 /* ViewController.swift */,
 				54F368E91FC32FC0000AFC19 /* Info.plist */,
 			);
 			path = "AC-iOS-MidUnit3-Assessment";
@@ -72,6 +81,12 @@
 			children = (
 				54F368DD1FC32FBF000AFC19 /* AppDelegate.swift */,
 				54F368E11FC32FBF000AFC19 /* Main.storyboard */,
+				CF86EA611FC4A1A400DA7DC2 /* book.swift */,
+				CF86EA631FC4A1B500DA7DC2 /* APIManager.swift */,
+				CF86EA651FC4A1CB00DA7DC2 /* BookTableViewController.swift */,
+				CF86EA671FC4A1E200DA7DC2 /* BookDetailViewController.swift */,
+				CF86EA5D1FC4803900DA7DC2 /* JeopardyViewController.swift */,
+				CF86EA5F1FC4804900DA7DC2 /* jeopardy.swift */,
 				54F368E41FC32FC0000AFC19 /* Assets.xcassets */,
 				54F368E61FC32FC0000AFC19 /* LaunchScreen.storyboard */,
 			);
@@ -152,8 +167,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				54F368E01FC32FBF000AFC19 /* ViewController.swift in Sources */,
+				CF86EA621FC4A1A400DA7DC2 /* book.swift in Sources */,
 				54F368DE1FC32FBF000AFC19 /* AppDelegate.swift in Sources */,
+				CF86EA641FC4A1B500DA7DC2 /* APIManager.swift in Sources */,
+				CF86EA5E1FC4803900DA7DC2 /* JeopardyViewController.swift in Sources */,
+				CF86EA681FC4A1E200DA7DC2 /* BookDetailViewController.swift in Sources */,
+				CF86EA661FC4A1CB00DA7DC2 /* BookTableViewController.swift in Sources */,
+				CF86EA601FC4804900DA7DC2 /* jeopardy.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
